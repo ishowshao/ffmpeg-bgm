@@ -1,6 +1,6 @@
 # Use ffmpeg to replace background music
 
-使用任意音频文件给视频文件替换背景音乐，循环播放。
+使用任意音频文件给视频文件替换背景音乐，循环播放。不会重新编解码视频，速度飞快。
 
 用到`ffprobe`和`ffmpeg`两个工具。
 
