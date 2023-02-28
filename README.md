@@ -1,5 +1,12 @@
 # Use ffmpeg to replace background music
 
+使用任意音频文件给视频文件替换背景音乐，循环播放。
+
+用到`ffprobe`和`ffmpeg`两个工具。
+
+使用方法：`./bgm.sh video.mp4 audio.flac output.mp4`
+
+
 ```
 #!/bin/bash
 
